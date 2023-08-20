@@ -1,0 +1,42 @@
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input[type="file"] {
+    border: none;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  input[type="file"]:hover {
+    background-color: #e6e6e6;
+  }
+  
+  input[type="file"]::-webkit-file-upload-button {
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #2980b9;
+  }
+  
